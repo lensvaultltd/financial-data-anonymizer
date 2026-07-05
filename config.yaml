@@ -1,0 +1,9 @@
+masking_rules:
+  users:
+    - column: full_name
+      type: name
+    - column: ssn_hash
+      type: ssn
+  transactions:
+    - column: card_pan
+      type: credit_card
